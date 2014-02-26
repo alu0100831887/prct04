@@ -3,7 +3,8 @@
 
 a = float(raw_input('Valor de a: '))
 b = float(raw_input('Valor de b: '))
-
-x = -b/(a +1)
-
-print 'Solucion: ', x
+if a!=0:
+  x = -b/a
+  print 'Solucion: ', x
+if a==0:
+ print 'La ecuacion no tiene solucion'
